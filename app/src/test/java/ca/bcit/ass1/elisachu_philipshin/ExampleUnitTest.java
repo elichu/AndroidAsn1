@@ -1,4 +1,4 @@
-package ca.bcit.ass1.elisachu_phillipshin;
+package ca.bcit.ass1.elisachu_philipshin;
 
 import org.junit.Test;
 

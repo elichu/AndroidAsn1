@@ -1,7 +1,9 @@
-package ca.bcit.ass1.elisachu_phillipshin;
+package ca.bcit.ass1.elisachu_philipshin;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.e.asn1.R;
 
 public class MainActivity extends AppCompatActivity {
 
