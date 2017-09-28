@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Temperature Converter</string>
-    <string name="temperatures">Select temperature</string>
+    <string name="option">Select a conversion</string>
+    <string name="enter_temperature">Enter the temperature"</string>
+    <string name="convert">Convert</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="result">Result</string>
+
     <string-array name="temperatures">
         <item>Celsius to Fahrenheit</item>
         <item>Celsius to Kelvin</item>
@@ -9,4 +15,5 @@
         <item>Kelvin to Celsius</item>
         <item>Kelvin to Fahrenheit</item>
     </string-array>
+    <string name="selected_language">English</string>
 </resources>

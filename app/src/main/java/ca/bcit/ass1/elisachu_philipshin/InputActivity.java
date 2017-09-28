@@ -93,10 +93,35 @@ public class InputActivity extends AppCompatActivity {
                 result = result + " °K converts to "
                         + df.format((input*1.8) - 459.67) + " °F";
                 break;
+
+            // KOREAN switch case
+            case "섭씨에서 화씨":
+                result = result + " °C 는 "
+                        + df.format((input*1.8) + 32) + " °F 입니다.";
+                break;
+            case "섭씨에서 켈빈":
+                result = result + " °C 는 "
+                        + df.format((input+273.15)) + " °K 입니다.";
+                break;
+            case "화씨에서 켈빈":
+                result = result + " °F 는 "
+                        + df.format((input+459.67) * .5555556) + " °K 입니다.";
+                break;
+            case "화씨에서 섭씨":
+                result = result + " °F 는 "
+                        + df.format((input-32)* .5555556) + " °C 입니다.";
+                break;
+            case "켈빈에서 섭씨":
+                result = result + " °K 은 "
+                        + df.format((input-273.15)) + " °C 입니다.";
+                break;
+            case "켈빈에서 화씨":
+                result = result + " °K 은 "
+                        + df.format((input*1.8) - 459.67) + " °F 입니다.";
+                break;
             default:
                 result = "Invalid Input";
         }
-
         return result;
     }
 }
