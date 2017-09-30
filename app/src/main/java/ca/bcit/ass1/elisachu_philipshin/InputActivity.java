@@ -1,16 +1,12 @@
 package ca.bcit.ass1.elisachu_philipshin;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.TextView;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
@@ -94,33 +90,33 @@ public class InputActivity extends AppCompatActivity {
                         + df.format((input*1.8) - 459.67) + " °F";
                 break;
 
-            // KOREAN switch case
-            case "섭씨에서 화씨":
-                result = result + " °C 는 "
-                        + df.format((input*1.8) + 32) + " °F 입니다.";
+            //French
+            case "Celsius à Fahrenheit":
+                result = result + " °C se transforme en "
+                        + df.format((input*1.8) + 32) + " °F";
                 break;
-            case "섭씨에서 켈빈":
-                result = result + " °C 는 "
-                        + df.format((input+273.15)) + " °K 입니다.";
+            case "Celsius à Kelvin":
+                result = result + " °C se transforme en "
+                        + df.format((input+273.15)) + " °K";
                 break;
-            case "화씨에서 켈빈":
-                result = result + " °F 는 "
-                        + df.format((input+459.67) * .5555556) + " °K 입니다.";
+            case "Fahrenheit à Kelvin":
+                result = result + " °F se transforme en "
+                        + df.format((input+459.67) * .5555556) + " °K";
                 break;
-            case "화씨에서 섭씨":
-                result = result + " °F 는 "
-                        + df.format((input-32)* .5555556) + " °C 입니다.";
+            case "Fahrenheit à Celsius":
+                result = result + " °F se transforme en "
+                        + df.format((input-32)* .5555556) + " °C";
                 break;
-            case "켈빈에서 섭씨":
-                result = result + " °K 은 "
-                        + df.format((input-273.15)) + " °C 입니다.";
+            case "Kelvin à Celsius":
+                result = result + " °K se transforme en "
+                        + df.format((input-273.15)) + " °C";
                 break;
-            case "켈빈에서 화씨":
-                result = result + " °K 은 "
-                        + df.format((input*1.8) - 459.67) + " °F 입니다.";
+            case "Kelvin à Fahrenheit":
+                result = result + " °K se transforme en "
+                        + df.format((input*1.8) - 459.67) + " °F";
                 break;
             default:
-                result = "Invalid Input";
+                result = "Entrée invalide\n";
         }
         return result;
     }

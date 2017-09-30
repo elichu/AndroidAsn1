@@ -7,10 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-/**
- * Created by E on 2017-09-25.
- */
-
 public class OutputActivity extends Activity {
 
     public static final String EXTRA_MESSAGE = "result";

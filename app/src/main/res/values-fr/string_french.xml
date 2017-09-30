@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convertisseur de température</string>
+    <string name="option">Sélectionnez une conversion</string>
+    <string name="enter_temperature">Entrez la température</string>
+    <string name="convert">Convertir</string>
+    <string name="exit">Sortie</string>
+    <string name="back">Arrière</string>
+    <string name="result">Résultat</string>
+
+    <string-array name="temperatures">
+        <item>Celsius à Fahrenheit</item>
+        <item>Celsius à Kelvin</item>
+        <item>Fahrenheit à Kelvin</item>
+        <item>Fahrenheit à Celsius</item>
+        <item>Kelvin à Celsius</item>
+        <item>Kelvin à Fahrenheit</item>
+    </string-array>
+    <string name="selected_language">French</string>
+</resources>
