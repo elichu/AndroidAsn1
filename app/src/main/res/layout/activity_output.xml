@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/output2"
-        android:layout_width="257dp"
-        android:layout_height="23dp"
+        android:layout_width="260dp"
+        android:layout_height="65dp"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
